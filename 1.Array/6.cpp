@@ -1,11 +1,7 @@
-// { Driver Code Starts
-//Initial template for C++
+// to get the union of two arrays.
 
 #include <bits/stdc++.h>
 using namespace std;
-
- // } Driver Code Ends
-//User function template in C++
 
 class Solution{
     public:
