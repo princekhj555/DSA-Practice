@@ -2,10 +2,10 @@
 
 ##Day 47
 
-'''Love babbar sheet'''
+Love babbar sheet
     72/450
     
-'''leetcode'''
+leetcode   
 easy : 1     
 medium: 0    
 hard: 0    
