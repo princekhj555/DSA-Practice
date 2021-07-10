@@ -1,12 +1,12 @@
 # DSA
 
-#Day 55
+#Day 56
 
 Love babbar sheet
     72/450
     
 leetcode   
-easy : 8 
+easy : 9 
 medium: 1   
 hard: 0    
 
