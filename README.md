@@ -1,12 +1,12 @@
 # DSA
 
-#Day 66
+#Day 67
 
 Love babbar sheet
     73/450
     
 leetcode   
-easy : 18
+easy : 20
 medium: 1   
 hard: 0    
 
