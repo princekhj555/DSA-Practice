@@ -1,13 +1,13 @@
 # DSA
 
-#Day 98
+#Day 99
 
 Love babbar sheet
-    92/450
+    95/450
     
 leetcode   
 easy : 39
-medium: 11
+medium: 12
 hard: 2
 
 
