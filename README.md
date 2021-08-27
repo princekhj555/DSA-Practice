@@ -1,9 +1,9 @@
 # DSA
 
-#Day 99
+#Day 100
 
 Love babbar sheet
-    95/450
+    100/450
     
 leetcode   
 easy : 39
