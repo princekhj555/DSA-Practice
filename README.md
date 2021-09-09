@@ -1,12 +1,12 @@
 # DSA
 
-#Day 112
+#Day 113
 
 Love babbar sheet
     100/450
     
 leetcode   
-easy : 45
+easy : 46
 medium: 18
 hard: 3
 
