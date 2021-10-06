@@ -1,22 +1,24 @@
-/*98. Validate Binary Search Tree*/
-
+/*90. Subsets II*/
 class Solution {
 public:
-    TreeNode*prev=NULL;
-    
-    bool isValidBST(TreeNode* root) {
-        if(!root)return true;
+    vector<vector<int>> subsetsWithDup(vector<int>& nums) {
+        set<vector<int>> sol;
+        sort(nums.begin(),nums.end());
+        solve(nums,0,sol,{});
+        vector<vector<int>> ans;
+        for(auto a: sol){
+            ans.push_back(a);
+        }
+        return ans;
+    }
+    void solve(vector<int> n,int start,set<vector<int>>&sol,vector<int> tmp){
+       
+            sol.insert(tmp);
         
-        if(!isValidBST(root->left)) return false;
-        
-        if(prev!=NULL && root->val <= prev->val) return false;
-        
-          prev=root;
-        
-        if(!isValidBST(root->right)) return false;
-        
-        return true;
-        
-        
+        for(int i=start;i<n.size();i++){
+            tmp.push_back(n[i]);
+            solve(n,i+1,sol,tmp);
+            tmp.pop_back();
+        }
     }
 };

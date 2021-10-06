@@ -1,13 +1,13 @@
 # DSA
 
-#Day 139
+#Day 140
 
 Love babbar sheet
     100/450
     
 leetcode   
-easy : 60
-medium: 44
+easy : 61
+medium: 47
 hard: 3
 
 
