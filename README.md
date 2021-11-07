@@ -1,13 +1,13 @@
 # DSA
 
-#Day 171
+#Day 172
 
 Love babbar sheet
     106/450
     
 leetcode   
-easy : 76
-medium: 72
+easy : 77
+medium: 73
 hard: 6
 
 
