@@ -1,12 +1,12 @@
 # DSA
 
-#Day 186
+#Day 187
 
 Love babbar sheet
     106/450
     
 leetcode   
-easy : 82
+easy : 83
 medium: 87
 hard: 7
 
