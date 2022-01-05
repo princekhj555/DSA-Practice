@@ -1,12 +1,12 @@
 # DSA
 
-#Day 224
+#Day 225
 
 Love babbar sheet
     108/450
     
 leetcode   
-easy : 100
+easy : 101
 medium: 108
 hard: 9
 
