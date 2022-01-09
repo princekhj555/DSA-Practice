@@ -5,7 +5,7 @@
 Love babbar sheet
     108/450
     
-leetcode   
+leetcode Questions   
 easy : 101
 medium: 111
 hard: 10
