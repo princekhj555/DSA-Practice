@@ -6,8 +6,8 @@ Love babbar sheet
     108/450
     
 leetcode Questions   
-easy : 116
-medium: 146
+easy : 117
+medium: 147
 hard: 19
 
 
