@@ -31,3 +31,38 @@ public:
         
     }
 };
+
+//***************************************************************************************//
+//2nd approach
+class Solution {
+public:
+    int bserFirst(vector<int> arr,int k){
+    int start=0,end=arr.size()-1;
+    int res=-1;
+    while(start<=end){
+        int mid=start+(end-start)/2;
+        if(arr[mid]==k) {res=mid; end=mid-1;}
+        else if(arr[mid]>k) end=mid-1;
+        else start=mid+1;
+    }
+    return res;
+}
+int bserLast(vector<int> arr,int k){
+    int start=0,end=arr.size()-1;
+    int res=-1;
+    while(start<=end){
+        int mid=start+(end-start)/2;
+        if(arr[mid]==k) {res=mid; start=mid+1;}
+        else if(arr[mid]>k) end=mid-1;
+        else start=mid+1;
+    }
+    return res;
+}
+    vector<int> searchRange(vector<int>& arr, int k) {
+        int last=bserLast(arr,k);
+    int first=bserFirst(arr,k);
+        
+            return {first,last};
+        
+    }
+};
