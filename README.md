@@ -1,12 +1,12 @@
 # DSA
 
-#Day 353
+#Day 354
 
 Love babbar sheet
     108/450
     
 leetcode Questions   
-easy : 141
+easy : 142
 medium: 200
 hard: 23
 
