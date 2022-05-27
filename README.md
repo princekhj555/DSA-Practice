@@ -1,12 +1,12 @@
 # DSA
 
-#Day 366
+#Day 367
 
 Love babbar sheet
     108/450
     
 leetcode Questions   
-easy : 145
+easy : 146
 medium: 207
 hard: 27
 
