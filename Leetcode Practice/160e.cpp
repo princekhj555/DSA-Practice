@@ -43,3 +43,25 @@ public:
         return res;
     }
 };
+
+
+//************************************************************************************************************//
+
+
+class Solution {
+public:
+   
+    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
+       ListNode *it1=headA;
+       ListNode *it2=headB;
+        while(it1!=it2){
+            it1=it1->next;
+            it2=it2->next;
+            
+            if(it1==it2) return it1;
+            if(it1==NULL) it1=headB;
+            if(it2==NULL) it2=headA;
+        }
+        return it1;
+    }
+};
