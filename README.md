@@ -1,12 +1,12 @@
 # DSA
 
-#Day 379
+#Day 380
 
 Love babbar sheet
     108/450
     
 leetcode Questions   
-easy : 149
+easy : 150
 medium: 213
 hard: 29
 
