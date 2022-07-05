@@ -1,6 +1,6 @@
 # DSA
 
-#Day 405
+#Day 406
 
 Love babbar sheet
     108/450
@@ -8,6 +8,6 @@ Love babbar sheet
 leetcode Questions   
 easy : 154
 medium: 231
-hard: 33
+hard: 34
 
  
