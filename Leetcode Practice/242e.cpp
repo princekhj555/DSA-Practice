@@ -19,3 +19,20 @@ public:
         return true;
     }
 };
+
+//&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+class Solution {
+public:
+    bool isAnagram(string s, string t) {
+        int tmp[26]={0};
+        
+        for(auto a:s) tmp[a-'a']++;
+        for(auto a:t) tmp[a-'a']--;
+        
+        for(auto a:tmp){
+            if(a!=0) return false;
+        }
+        return true;
+    }
+};
