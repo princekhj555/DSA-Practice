@@ -28,3 +28,26 @@ public:
         return ans;
     }
 };
+
+//**************************************************************************************************************//
+class Solution {
+public:
+    int minimumRounds(vector<int>& tasks) {
+        unordered_map<int,int>mp;
+        for(auto a:tasks){
+            mp[a]++;
+        }
+        int sol=0;
+        for(auto a:mp){
+           if(a.second==1) return -1;
+           int count=0;
+           while(a.second>3){
+               a.second-=3;
+               count++;
+           }
+           if(a.second) count++;
+            sol+=count;
+        }
+        return sol;
+    }
+};
